@@ -17,7 +17,8 @@ RUN \
   apt-get install -y byobu curl git htop man unzip vim wget && \
   apt-get install -y python3 python3-pip libatlas3-base libffi-dev
 RUN python3 -m pip install --upgrade pip
-RUN pip3 install jupyterlab && \
+RUN pip3 install matplotlib && \
+    pip3 install jupyterlab && \
     pip3 install notebook && \
     pip3 install voila && \
     pip3 install -U turicreate
