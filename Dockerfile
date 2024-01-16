@@ -3,7 +3,7 @@
 # This will help others like me that had to figure out how to install turicreate in a Mac with an M1 processor.
 #
 # Based on https://github.com/dockerfile/ubuntu
-#
+# Course Link: https://www.coursera.org/learn/ml-foundations/home/welcome
 
 # Pull base image.
 FROM ubuntu:18.04
